@@ -3,7 +3,7 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 
 import './App.css'
 import Header from './components/header/Header'
-import Home from './Pages/home/home'
+import Home from './Pages/home/Homes'
 import MovieList from './components/movieList/MovieList'
 import Movie from './Pages/movieDetail/Movie'
 

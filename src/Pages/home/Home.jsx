@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import MovieList from "../../components/movieList/MovieList";
 
-const Home = () => {
+const Homes = () => {
   const [popularMovies, setPopularMovies] = useState([]);
 
   useEffect(() => {
@@ -68,4 +68,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Homes;
